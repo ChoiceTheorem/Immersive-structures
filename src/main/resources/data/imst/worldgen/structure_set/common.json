@@ -1,0 +1,42 @@
+{
+    "structures": [
+        {
+            "weight": 1,
+            "structure": "imst:beehouse"
+        },
+        {
+            "weight": 1,
+            "structure": "imst:sunflowerfarm"
+        },
+        {
+            "weight": 1,
+            "structure": "imst:terralith/yurt"
+        },
+        {
+            "weight": 1,
+            "structure": "imst:cactusfarm"
+        },
+        {
+            "weight": 1,
+            "structure": "imst:desertwell"
+        },
+        {
+            "weight": 1,
+            "structure": "imst:bandit_camp"
+        },
+        {
+            "weight": 1,
+            "structure": "imst:rail_station"
+        },
+        {
+            "weight": 1,
+            "structure": "imst:cocoa_farm"
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 16,
+        "separation": 8,
+        "salt": 1358791759
+    }
+}

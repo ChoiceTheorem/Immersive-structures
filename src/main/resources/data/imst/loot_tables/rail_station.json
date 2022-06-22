@@ -1,0 +1,65 @@
+{
+    "pools": [
+        {
+            "rolls": 10,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:rail",
+                    "functions": [
+                        {
+                            "function":"minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:binomial",
+                                "n": 10,
+                                "p": 0.7
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:powered_rail",
+                    "functions": [
+                        {
+                            "function":"minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:binomial",
+                                "n": 7,
+                                "p": 0.7
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:detector_rail",
+                    "functions": [
+                        {
+                            "function":"minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:binomial",
+                                "n": 5,
+                                "p": 0.7
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:activator_rail",
+                    "functions": [
+                        {
+                            "function":"minecraft:set_count",
+                            "count": {
+                                "type": "minecraft:binomial",
+                                "n": 3,
+                                "p": 0.7
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

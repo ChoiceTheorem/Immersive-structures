@@ -1,0 +1,34 @@
+{
+    "structures": [
+        {
+            "weight": 1,
+            "structure": "imst:lumberjack/oak_hut"
+        },
+        {
+            "weight": 1,
+            "structure": "imst:lumberjack/birch_hut"
+        },
+        {
+            "weight": 1,
+            "structure": "imst:lumberjack/spruce_hut"
+        },
+        {
+            "weight": 1,
+            "structure": "imst:lumberjack/acacia_hut"
+        },
+        {
+            "weight": 1,
+            "structure": "imst:lumberjack/jungle_hut"
+        },
+        {
+            "weight": 1,
+            "structure": "imst:lumberjack/dark_oak_hut"
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 16,
+        "separation": 8,
+        "salt": 1258736880
+    }
+}

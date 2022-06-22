@@ -1,0 +1,24 @@
+{
+    "values": [
+        "minecraft:plains",
+        "minecraft:sunflower_plains",
+        "minecraft:meadow",
+        "minecraft:flower_forest",
+        {
+            "id": "terralith:temperate_highlands",
+            "required": false
+        },
+        {
+            "id": "terralith:forested_highlands",
+            "required": false
+        },
+        {
+            "id": "terralith:alpine_highlands",
+            "required": false
+        },
+        {
+            "id": "terralith:brushland",
+            "required": false
+        }
+    ]
+}

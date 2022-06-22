@@ -1,0 +1,15 @@
+{
+    "name": "imst:cocoa_farm/cocoa",
+    "fallback": "imst:cocoa_farm/cocoa",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:feature_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "feature": "minecraft:mega_jungle_tree_checked"
+            }
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "structures": [
+        {
+            "weight": 1,
+            "structure": "imst:flowerdome"
+        },
+        {
+            "weight": 1,
+            "structure": "imst:pyramid"
+        },
+        {
+            "weight": 1,
+            "structure": "imst:el_dorado"
+        },
+        {
+            "weight": 1,
+            "structure": "imst:airship"
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 32,
+        "separation": 16,
+        "salt": 1921011862
+    }
+}

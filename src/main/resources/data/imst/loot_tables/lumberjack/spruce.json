@@ -1,0 +1,54 @@
+{
+	"pools": [
+		{
+			"rolls": {
+				"type": "minecraft:binomial",
+				"n": 10,
+				"p": 0.7
+			},
+			"bonus_rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:spruce_log"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:spruce_wood"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "minecraft:spruce_sapling",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:binomial",
+								"n": 5,
+								"p": 0.6
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "minecraft:spruce_planks",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:binomial",
+								"n": 5,
+								"p": 0.6
+							}
+						}
+					]
+                }
+			]
+		}
+	]
+}

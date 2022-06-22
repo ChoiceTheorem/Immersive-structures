@@ -1,0 +1,22 @@
+{
+    "schemaVersion": 1,
+    "id": "imst",
+    "version": "2.0",
+    "name": "Immersive structures",
+    "description": "More structures pack by ChoiceTheorem.",
+    "authors": [
+      "ChoiceTheorem"
+    ],
+    "contact": {
+      "sources": "https://www.planetminecraft.com/data-pack/choicetheorem-s-overhauled-villages-for-1-18/",
+      "issues": "https://github.com/ChoiceTheorem/ct-overhaul-village/issues"
+    },
+    "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "icon": "pack.png",
+    "environment": "*",
+    "depends": {
+      "fabricloader": ">=0.14.7",
+      "minecraft": ">=1.19"
+    }
+  }
+  

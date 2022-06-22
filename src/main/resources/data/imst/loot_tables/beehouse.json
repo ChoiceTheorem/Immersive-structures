@@ -1,0 +1,84 @@
+{
+	"pools": [
+		{
+			"rolls": {
+				"type": "minecraft:binomial",
+				"n": 10,
+				"p": 0.7
+			},
+			"bonus_rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:bee_nest"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 1,
+					"name": "minecraft:beehive"
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 3,
+					"name": "minecraft:honey_block",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:binomial",
+								"n": 5,
+								"p": 0.6
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "minecraft:honey_bottle",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:binomial",
+								"n": 5,
+								"p": 0.6
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "minecraft:honeycomb",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:binomial",
+								"n": 5,
+								"p": 0.6
+							}
+						}
+					]
+				},
+				{
+					"type": "minecraft:item",
+					"weight": 5,
+					"name": "minecraft:honeycomb_block",
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"type": "minecraft:binomial",
+								"n": 5,
+								"p": 0.6
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}
