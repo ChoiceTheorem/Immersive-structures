@@ -1,7 +1,7 @@
 {
 	"type": "minecraft:jigsaw",
 	"biomes": "#minecraft:is_jungle",
-	"adapt_noise": true,
+	"terrain_adaptation": "beard_thin",
 	"spawn_overrides": {},
 	"start_pool": "imst:lumberjack/jungle",
 	"size": 1,

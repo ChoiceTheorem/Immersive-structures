@@ -2,7 +2,7 @@
     "type": "minecraft:jigsaw",
     "biomes": "#imst:has_structure/terralith/yurt",
     "spawn_overrides": {},
-    "adapt_noise": true,
+    "terrain_adaptation": "beard_thin",
     "size": 1,
     "start_pool": "imst:terralith/yurt",
     "step": "surface_structures",

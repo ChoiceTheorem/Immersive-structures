@@ -1,7 +1,7 @@
 {
     "type": "minecraft:jigsaw",
     "biomes": "#minecraft:has_structure/village_desert",
-    "adapt_noise": true,
+    "terrain_adaptation": "beard_thin",
     "spawn_overrides": {},
     "size": 3,
     "start_pool": "imst:pyramid/start",

@@ -1,7 +1,7 @@
 {
 	"type": "minecraft:jigsaw",
 	"biomes": "#imst:has_structure/lumberjack_oak",
-	"adapt_noise": true,
+	"terrain_adaptation": "beard_thin",
 	"spawn_overrides": {},
 	"start_pool": "imst:lumberjack/oak",
 	"size": 1,

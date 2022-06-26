@@ -1,3 +1,4 @@
 bin/
 .gradle/
 build/
+src/main/resources/data/imst/worldgen/structure/beehouse.json

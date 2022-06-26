@@ -31,12 +31,36 @@
         {
             "weight": 1,
             "structure": "imst:cocoa_farm"
+        },
+        {
+            "weight": 1,
+            "structure": "imst:lumberjack/oak_hut"
+        },
+        {
+            "weight": 1,
+            "structure": "imst:lumberjack/birch_hut"
+        },
+        {
+            "weight": 1,
+            "structure": "imst:lumberjack/spruce_hut"
+        },
+        {
+            "weight": 1,
+            "structure": "imst:lumberjack/acacia_hut"
+        },
+        {
+            "weight": 1,
+            "structure": "imst:lumberjack/jungle_hut"
+        },
+        {
+            "weight": 1,
+            "structure": "imst:lumberjack/dark_oak_hut"
         }
     ],
     "placement": {
         "type": "minecraft:random_spread",
-        "spacing": 16,
-        "separation": 8,
+        "spacing": 48,
+        "separation": 24,
         "salt": 1358791759
     }
 }
