@@ -1,0 +1,15 @@
+{
+    "name": "imst:berry_house/start",
+    "fallback": "minecraft:Empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "imst:berry_house/piece"
+            }
+        }
+    ]
+}

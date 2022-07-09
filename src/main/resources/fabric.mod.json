@@ -5,18 +5,18 @@
     "name": "Immersive structures",
     "description": "More structures pack by ChoiceTheorem.",
     "authors": [
-      "ChoiceTheorem"
+    	"ChoiceTheorem"
     ],
     "contact": {
-      "sources": "https://github.com/ChoiceTheorem/Immersive-structures",
-      "issues": "https://github.com/ChoiceTheorem/Immersive-structures/issues"
+    	"sources": "https://github.com/ChoiceTheorem/Immersive-structures",
+    	"issues": "https://github.com/ChoiceTheorem/Immersive-structures/issues"
     },
     "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
     "icon": "pack.png",
     "environment": "*",
     "depends": {
-      "fabricloader": ">=0.14.7",
-      "minecraft": ">=1.19"
+    	"fabricloader": ">=0.14.7",
+    	"minecraft": ">=1.19"
     }
-  }
+}
   
