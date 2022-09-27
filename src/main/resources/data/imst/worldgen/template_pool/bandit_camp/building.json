@@ -1,0 +1,78 @@
+{
+    "name": "imst:bandit_camp/building",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "imst:bandit_camp/red",
+                "location": "imst:bandit_camp/tent_1"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "imst:bandit_camp/blue",
+                "location": "imst:bandit_camp/tent_1"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "imst:bandit_camp/default",
+                "location": "imst:bandit_camp/tent_1"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "imst:bandit_camp/red",
+                "location": "imst:bandit_camp/tent_2"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "imst:bandit_camp/blue",
+                "location": "imst:bandit_camp/tent_2"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "imst:bandit_camp/default",
+                "location": "imst:bandit_camp/tent_2"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "imst:bandit_camp/default",
+                "location": "imst:bandit_camp/mine"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "imst:bandit_camp/default",
+                "location": "imst:bandit_camp/pen"
+            }
+        }
+    ]
+}

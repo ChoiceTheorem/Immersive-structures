@@ -7,7 +7,7 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
-                "processors": "minecraft:empty",
+                "processors": "imst:beehouse/road",
                 "location": "imst:beehouse/beehive"
             }
         },
@@ -16,16 +16,7 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
-                "processors": "minecraft:empty",
-                "location": "imst:beehouse/beenest"
-            }
-        },
-        {
-            "weight": 1,
-            "element": {
-                "element_type": "minecraft:single_pool_element",
-                "projection": "rigid",
-                "processors": "minecraft:empty",
+                "processors": "imst:beehouse/road",
                 "location": "imst:beehouse/factory"
             }
         },
@@ -43,7 +34,7 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
-                "processors": "minecraft:empty",
+                "processors": "imst:beehouse/garden",
                 "location": "imst:beehouse/garden"
             }
         },
@@ -52,7 +43,7 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
-                "processors": "minecraft:empty",
+                "processors": "imst:beehouse/road",
                 "location": "imst:beehouse/greenhouse"
             }
         },
@@ -61,7 +52,7 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
-                "processors": "minecraft:empty",
+                "processors": "imst:beehouse/road",
                 "location": "imst:beehouse/well"
             }
         }

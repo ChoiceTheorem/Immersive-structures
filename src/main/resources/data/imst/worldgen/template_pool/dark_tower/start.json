@@ -1,6 +1,6 @@
 {
     "name": "imst:dark_tower/start",
-    "fallback": "minecraft:Empty",
+    "fallback": "minecraft:empty",
     "elements": [
         {
             "weight": 1,

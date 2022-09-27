@@ -1,6 +1,6 @@
 {
     "name": "imst:berry_house/start",
-    "fallback": "minecraft:Empty",
+    "fallback": "minecraft:empty",
     "elements": [
         {
             "weight": 1,

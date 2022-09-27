@@ -7,8 +7,8 @@
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
-                "processors": "minecraft:empty",
-                "location": "imst:bandit_camp/piece"
+                "processors": "imst:bandit_camp/default",
+                "location": "imst:bandit_camp/start"
             }
         }
     ]

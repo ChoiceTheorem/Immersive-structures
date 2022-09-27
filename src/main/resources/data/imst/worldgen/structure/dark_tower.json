@@ -5,7 +5,7 @@
 	"spawn_overrides": {},
 	"size": 6,
 	"start_height": {
-		"absolute": 0
+		"absolute": 1
 	},
     "start_pool": "imst:dark_tower/start",
     "terrain_adaptation": "beard_thin",

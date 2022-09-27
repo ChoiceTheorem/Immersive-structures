@@ -1,14 +1,14 @@
 {
-    "name": "imst:cocoa_farm/piece",
-    "fallback": "imst:cocoa_farm/piece",
+    "name": "imst:cactus_farm/start",
+    "fallback": "minecraft:empty",
     "elements": [
         {
             "weight": 1,
             "element": {
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
-                "processors": "minecraft:empty",
-                "location": "imst:cocoa_farm/piece"
+                "processors": "imst:cactus_farm/house",
+                "location": "imst:cactus_farm/house"
             }
         }
     ]

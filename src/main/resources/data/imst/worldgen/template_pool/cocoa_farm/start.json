@@ -6,9 +6,9 @@
             "weight": 1,
             "element": {
                 "element_type": "minecraft:single_pool_element",
-                "projection": "terrain_matching",
-                "processors": "minecraft:empty",
-                "location": "imst:cocoa_farm/baseline"
+                "projection": "rigid",
+                "processors": "imst:cocoa_farm/house",
+                "location": "imst:cocoa_farm/house"
             }
         }
     ]
