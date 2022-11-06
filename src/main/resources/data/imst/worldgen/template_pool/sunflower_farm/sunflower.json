@@ -1,0 +1,14 @@
+{
+	"name": "imst:sunflower_farm/sunflower",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:feature_pool_element",
+				"projection": "rigid",
+				"feature": "imst:sunflower_farm/patch_sunflower"
+			}
+		}
+	]
+}

@@ -1,5 +1,5 @@
 {
-    "name": "imst:sunflowerfarm/start",
+    "name": "imst:train_station/start",
     "fallback": "minecraft:empty",
     "elements": [
         {
@@ -8,7 +8,7 @@
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
                 "processors": "minecraft:empty",
-                "location": "imst:sunflowerfarm/house"
+                "location": "imst:train_station/start"
             }
         }
     ]

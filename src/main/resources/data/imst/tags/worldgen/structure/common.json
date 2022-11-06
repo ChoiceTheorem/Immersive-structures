@@ -2,12 +2,12 @@
     "values": [
         "imst:beehouse",
         "#imst:lumberjack",
-        "imst:sunflowerfarm",
+        "imst:sunflower_farm",
         "imst:terralith/yurt",
         "imst:cactus_farm",
-        "imst:desertwell",
+        "imst:desert_well",
         "imst:bandit_camp",
-        "imst:rail_station",
+        "imst:train_station",
         "imst:cocoa_farm",
         "imst:berry_house"        
     ]

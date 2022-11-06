@@ -1,5 +1,5 @@
 {
-    "name": "imst:sunflowerfarm/plot",
+    "name": "imst:sunflower_farm/plot",
     "fallback": "minecraft:empty",
     "elements": [
         {
@@ -8,7 +8,7 @@
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
                 "processors": "minecraft:empty",
-                "location": "imst:sunflowerfarm/farm"
+                "location": "imst:sunflower_farm/animal_pen"
             }
         },
         {
@@ -17,7 +17,7 @@
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
                 "processors": "minecraft:empty",
-                "location": "imst:sunflowerfarm/hay"
+                "location": "imst:sunflower_farm/farm"
             }
         },
         {
@@ -26,7 +26,7 @@
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
                 "processors": "minecraft:empty",
-                "location": "imst:sunflowerfarm/market"
+                "location": "imst:sunflower_farm/hay"
             }
         },
         {
@@ -35,7 +35,7 @@
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
                 "processors": "minecraft:empty",
-                "location": "imst:sunflowerfarm/sunflower"
+                "location": "imst:sunflower_farm/market"
             }
         },
         {
@@ -44,7 +44,16 @@
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
                 "processors": "minecraft:empty",
-                "location": "imst:sunflowerfarm/windmill"
+                "location": "imst:sunflower_farm/sunflower"
+            }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "imst:sunflower_farm/windmill"
             }
         }
     ]

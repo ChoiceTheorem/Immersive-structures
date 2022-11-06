@@ -1,5 +1,5 @@
 {
-    "name": "imst:rail_station/start",
+    "name": "imst:desert_well/start",
     "fallback": "minecraft:empty",
     "elements": [
         {
@@ -8,7 +8,7 @@
                 "element_type": "minecraft:single_pool_element",
                 "projection": "rigid",
                 "processors": "minecraft:empty",
-                "location": "imst:rail_station/start"
+                "location": "imst:desert_well/piece"
             }
         }
     ]

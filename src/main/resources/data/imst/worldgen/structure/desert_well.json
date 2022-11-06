@@ -4,7 +4,7 @@
     "terrain_adaptation": "beard_thin",
     "spawn_overrides": {},
     "size": 1,
-    "start_pool": "imst:desertwell/start",
+    "start_pool": "imst:desert_well/start",
     "step": "surface_structures",
     "start_height": {
 		"absolute": 0

@@ -1,14 +1,14 @@
 {
-    "name": "imst:sunflowerfarm/gap",
+    "name": "imst:train_station/rail",
     "fallback": "minecraft:empty",
     "elements": [
         {
             "weight": 1,
             "element": {
                 "element_type": "minecraft:single_pool_element",
-                "projection": "terrain_matching",
+                "projection": "rigid",
                 "processors": "minecraft:empty",
-                "location": "imst:sunflowerfarm/gap"
+                "location": "imst:train_station/rail"
             }
         }
     ]

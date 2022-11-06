@@ -14,7 +14,7 @@
             ]
         }
     },
-    "start_pool": "imst:rail_station/start",
+    "start_pool": "imst:train_station/start",
     "size": 5,
     "step": "surface_structures",
     	"start_height": {
