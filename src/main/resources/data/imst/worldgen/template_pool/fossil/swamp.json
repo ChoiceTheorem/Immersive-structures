@@ -1,0 +1,42 @@
+{
+	"name": "imst:fossil/swamp",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 5,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "imst:fossil/head/head_1",
+				"processors": "imst:fossil/rot_20"
+			}
+		},
+		{
+			"weight": 10,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "imst:fossil/head/head_1",
+				"processors": "imst:fossil/rot_50"
+			}
+		},
+		{
+			"weight": 25,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "imst:fossil/head/head_1",
+				"processors": "imst:fossil/rot_80"
+			}
+		},
+		{
+			"weight": 50,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "imst:fossil/head/head_1",
+				"processors": "imst:fossil/rot_90"
+			}
+		}
+	]
+}

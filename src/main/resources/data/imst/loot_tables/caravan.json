@@ -1,0 +1,58 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/village/village_armorer"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/village/village_butcher"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/village/village_cartographer"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/village/village_fisher"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/village/village_fletcher"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/village/village_mason"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/village/village_tannery"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/village/village_temple"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/village/village_toolsmith"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/village/village_weaponsmith"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/village/village_savanna_house"
+				}
+			]
+		}
+	]
+}

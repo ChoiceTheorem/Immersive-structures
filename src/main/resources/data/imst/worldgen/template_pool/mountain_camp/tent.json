@@ -1,0 +1,60 @@
+{
+	"name": "imst:mountain_camp/start",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "imst:mountain_camp/tent",
+				"processors": "imst:mountain_camp/blue"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "imst:mountain_camp/tent",
+				"processors": "imst:mountain_camp/gray"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "imst:mountain_camp/tent",
+				"processors": "imst:mountain_camp/green"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "imst:mountain_camp/tent",
+				"processors": "imst:mountain_camp/orange"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "imst:mountain_camp/tent",
+				"processors": "imst:mountain_camp/pink"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "imst:mountain_camp/tent",
+				"processors": "minecraft:empty"
+			}
+		}
+	]
+}

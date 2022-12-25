@@ -1,0 +1,26 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/buried_treasure"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/abandoned_mineshaft"
+				}
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"name": "minecraft:chests/village/village_savanna_house"
+				}
+			]
+		}
+	]
+}

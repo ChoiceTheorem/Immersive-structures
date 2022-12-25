@@ -1,0 +1,123 @@
+{
+	"name": "imst:caravan/convoy",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "imst:caravan/armorer",
+                "location": "imst:caravan/caravan_cart"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "imst:caravan/butcher",
+                "location": "imst:caravan/caravan_cart"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "imst:caravan/cartographer",
+                "location": "imst:caravan/caravan_cart"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "imst:caravan/cleric",
+                "location": "imst:caravan/caravan_cart"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "imst:caravan/farmer",
+                "location": "imst:caravan/caravan_cart"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "imst:caravan/fisherman",
+                "location": "imst:caravan/caravan_cart"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "imst:caravan/fletcher",
+                "location": "imst:caravan/caravan_cart"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "imst:caravan/leatherworker",
+                "location": "imst:caravan/caravan_cart"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "imst:caravan/librarian",
+                "location": "imst:caravan/caravan_cart"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "imst:caravan/mason",
+                "location": "imst:caravan/caravan_cart"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "imst:caravan/shepherd",
+                "location": "imst:caravan/caravan_cart"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "imst:caravan/toolsmith",
+                "location": "imst:caravan/caravan_cart"
+			}
+		},
+        {
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"processors": "imst:caravan/weaponsmith",
+                "location": "imst:caravan/caravan_cart"
+			}
+		}
+	]
+}

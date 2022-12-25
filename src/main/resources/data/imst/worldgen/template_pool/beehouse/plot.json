@@ -55,6 +55,14 @@
                 "processors": "imst:beehouse/road",
                 "location": "imst:beehouse/well"
             }
+        },
+        {
+            "weight":1,
+            "element":{
+                "element_type": "minecraft:feature_pool_element",
+                "projection": "rigid",
+                "feature": "minecraft:trees_meadow"
+            }
         }
     ]
 }

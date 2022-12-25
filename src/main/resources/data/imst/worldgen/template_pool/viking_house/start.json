@@ -1,0 +1,15 @@
+{
+	"name": "imst:viking_house/start",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "imst:viking_house/main",
+				"processors": "minecraft:empty"
+			}
+		}
+	]
+}

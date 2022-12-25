@@ -1,0 +1,19 @@
+{
+	"pools": [
+		{
+			"rolls": 2,
+			"entries": [
+				{
+					"type": "minecraft:loot_table",
+					"weight": 1,
+					"name": "minecraft:chests/village/village_snowy_house"
+				},
+				{
+					"type": "minecraft:loot_table",
+					"weight": 1,
+					"name": "minecraft:chests/village/village_butcher"
+				}
+			]
+		}
+	]
+}

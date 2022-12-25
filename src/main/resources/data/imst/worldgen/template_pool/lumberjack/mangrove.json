@@ -1,0 +1,15 @@
+{
+	"name": "imst:lumberjack/mangrove",
+	"fallback": "minecraft:empty",
+	"elements": [
+		{
+			"weight": 1,
+			"element": {
+				"element_type": "minecraft:single_pool_element",
+				"projection": "rigid",
+				"location": "imst:lumberjack/mangrove_forest",
+				"processors": "minecraft:empty"
+			}
+		}
+	]
+}

@@ -9,6 +9,12 @@
         "imst:bandit_camp",
         "imst:train_station",
         "imst:cocoa_farm",
-        "imst:berry_house"        
+        "imst:berry_house",
+        "imst:balloon",
+        "imst:observatory",
+        "imst:igloo",
+        "imst:witch_hut",
+        "imst:mountain_camp",
+        "imst:quarry"
     ]
 }
