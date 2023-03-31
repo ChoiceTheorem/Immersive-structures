@@ -9,7 +9,7 @@
 				{
 					"type": "minecraft:zombie_villager",
 					"weight": 1,
-					"minCount": 0,
+					"minCount": 1,
 					"maxCount": 1
 				}
 			]
