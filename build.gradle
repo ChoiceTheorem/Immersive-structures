@@ -16,7 +16,7 @@ plugins {
 apply plugin: 'net.minecraftforge.gradle'
 
 
-version = '2.0.7'
+version = '2.0.7a'
 group = 'com.choicetheorem.imst' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = '[Universal]Immersive Structures'
 

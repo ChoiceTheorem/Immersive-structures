@@ -3,7 +3,7 @@
 	"biomes": "#minecraft:has_structure/village_plains",
 	"step": "surface_structures",
 	"spawn_overrides": {
-		"misc": {
+		"ambient": {
 			"bounding_box": "piece",
 			"spawns": [
 				{
