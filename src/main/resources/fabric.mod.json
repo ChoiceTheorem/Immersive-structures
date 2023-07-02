@@ -1,22 +1,21 @@
 {
-    "schemaVersion": 1,
-    "id": "imst",
-    "version": "2.1.0",
-    "name": "Immersive structures",
-    "description": "More structures pack by ChoiceTheorem.",
-    "authors": [
-    	"ChoiceTheorem"
-    ],
-    "contact": {
-    	"sources": "https://github.com/ChoiceTheorem/Immersive-structures",
-    	"issues": "https://github.com/ChoiceTheorem/Immersive-structures/issues"
-    },
-    "license": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-    "icon": "pack.png",
-    "environment": "*",
-    "depends": {
-    	"fabricloader": ">=0.14.21",
-    	"minecraft": ">=1.20"
-    }
+	"schemaVersion": 1,
+	"id": "${mod_id}",
+	"version": "${mod_version}",
+	"name": "${mod_name}",
+	"description": "${mod_description}",
+	"authors": [
+		"${mod_authors}"
+	],
+	"contact": {
+		"sources": "${source_url}",
+		"issues": "${issue_url}"
+	},
+	"license": "${mod_license}",
+	"icon": "${icon_path}",
+	"environment": "*",
+	"depends": {
+		"fabricloader": "${fabric_loader_version_range}",
+		"minecraft": "${fabric_mc_version_range}"
+	}
 }
-  
