@@ -3,10 +3,6 @@ bin/
 build/
 src/main/resources/data/imst/worldgen/structure/beehouse.json
 gradle/
-IMST_2_0_1.jar
-IMST_2-0.jar
+.idea
 .vscode/settings.json
-gradle/wrapper/gradle-wrapper.jar
-gradle/wrapper/gradle-wrapper.jar
-IMST_2_0_2.jar
 gradle/wrapper/gradle-wrapper.jar

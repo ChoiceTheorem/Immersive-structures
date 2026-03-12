@@ -1,8 +1,8 @@
 {
   "schemaVersion": 1,
-  "id": "example_mod",
+  "id": "imst",
   "version": "${version}",
-  "name": "Example Mod",
+  "name": "Immersive Structures",
   "description": "This is an example description! Tell everyone what your mod is about!",
   "authors": [
     "Me!"
@@ -12,27 +12,26 @@
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
   "license": "CC0-1.0",
-  "icon": "assets/example_mod/icon.png",
+  "icon": "assets/imst/icon.png",
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.example.fabric.ExampleModFabric"
+      "com.choicetheorem.imst.fabric.imstFabric"
     ],
     "client": [
-      "com.example.fabric.client.ExampleModFabricClient"
+      "com.choicetheorem.imst.fabric.client.imstFabricClient"
     ]
   },
   "mixins": [
-    "example_mod.mixins.json"
+    "imst.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.16.0",
+    "fabricloader": ">=0.16.12",
     "minecraft": "~1.21",
     "java": ">=21",
-    "architectury": ">=13.0.2",
     "fabric-api": "*"
   },
   "suggests": {
-    "another-mod": "*"
+    "ctov": ">=3.5.8"
   }
 }

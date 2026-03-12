@@ -2,20 +2,20 @@
   "schema_version": 1,
   "quilt_loader": {
     "group": "${group}",
-    "id": "example_mod",
+    "id": "imst",
     "version": "${version}",
     "metadata": {
-      "name": "Example Mod",
+      "name": "Immersive Structures",
       "description": "This is an example description! Tell everyone what your mod is about!",
       "contributors": {
         "Me!": "Author"
       },
-      "icon": "assets/example_mod/icon.png"
+      "icon": "assets/imst/icon.png"
     },
     "intermediate_mappings": "net.fabricmc:intermediary",
     "entrypoints": {
       "init": [
-        "com.example.quilt.ExampleModQuilt"
+        "com.choicetheorem.imst.quilt.ExampleModQuilt"
       ]
     },
     "depends": [
@@ -33,11 +33,11 @@
       },
       {
         "id": "architectury",
-        "version": ">=13.0.2"
+        "version": ">=13.0.8"
       }
     ]
   },
   "mixin": [
-    "example_mod.mixins.json"
+    "imst.mixins.json"
   ]
 }
