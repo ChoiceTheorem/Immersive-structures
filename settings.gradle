@@ -10,6 +10,5 @@ pluginManagement {
 rootProject.name = 'imst'
 
 include 'common'
-include 'fabric'
-include 'neoforge'
-include 'quilt'
+// Only configure platforms selected for this Minecraft version.
+enabled_platforms.split(',').each { include it.trim() }
