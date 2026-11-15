@@ -3,10 +3,10 @@
 	"config": {
 		"features": [
 			{
-				"chance": 0.1,
-				"feature": "imst:mega_cocoa_tree"
+				"chance": 0.3,
+				"feature": "minecraft:mega_jungle_tree_checked"
 			}
 		],
-		"default": "imst:normal_cocoa_tree"
+		"default": "minecraft:jungle_tree"
 	}
 }

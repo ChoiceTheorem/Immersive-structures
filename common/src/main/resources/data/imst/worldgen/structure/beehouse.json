@@ -2,19 +2,7 @@
 	"type": "minecraft:jigsaw",
 	"biomes": "#minecraft:has_structure/village_plains",
 	"step": "surface_structures",
-	"spawn_overrides": {
-		"ambient": {
-			"bounding_box": "piece",
-			"spawns": [
-				{
-					"type": "minecraft:bee",
-					"weight": 1,
-					"minCount": 1,
-					"maxCount": 1
-				}
-			]
-		}
-	},
+	"spawn_overrides": {},
 	"terrain_adaptation": "beard_thin",
 	"start_pool": "imst:beehouse/start",
 	"size": 1,

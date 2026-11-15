@@ -1,7 +1,7 @@
 plugins {
-    id 'dev.architectury.loom' version '1.7-SNAPSHOT' apply false
-    id 'architectury-plugin' version '3.4-SNAPSHOT'
-    id 'com.github.johnrengelman.shadow' version '8.1.1' apply false
+    id 'dev.architectury.loom-no-remap' version '1.17-SNAPSHOT' apply false
+    id 'architectury-plugin' version '3.5-SNAPSHOT'
+    id 'com.gradleup.shadow' version '9.6.1' apply false
 }
 
 architectury {
@@ -14,13 +14,13 @@ allprojects {
 }
 
 subprojects {
-    apply plugin: 'dev.architectury.loom'
+    apply plugin: 'dev.architectury.loom-no-remap'
     apply plugin: 'architectury-plugin'
     apply plugin: 'maven-publish'
 
     base {
         // Set up a suffixed format for the mod jar names, e.g. `example-fabric`.
-        archivesName = "[$project.name]$rootProject.archives_name"
+        archivesName = "[$project.name]$rootProject.archives_name-$rootProject.minecraft_version"
     }
 
     repositories {
@@ -31,27 +31,21 @@ subprojects {
         // for more information about repositories.
     }
 
-    loom {
-        silentMojangMappingsLicense()
-    }
-
     dependencies {
         minecraft "net.minecraft:minecraft:$rootProject.minecraft_version"
-        mappings loom.officialMojangMappings()
     }
 
     java {
-        // Loom will automatically attach sourcesJar to a RemapSourcesJar task and to the "build" task
-        // if it is present.
-        // If you remove this line, sources will not be generated.
+        toolchain.languageVersion = JavaLanguageVersion.of(25)
+        // Minecraft 26.1 uses unobfuscated names; publish sources without remapping.
         withSourcesJar()
 
-        sourceCompatibility = JavaVersion.VERSION_21
-        targetCompatibility = JavaVersion.VERSION_21
+        sourceCompatibility = JavaVersion.VERSION_25
+        targetCompatibility = JavaVersion.VERSION_25
     }
 
     tasks.withType(JavaCompile).configureEach {
-        it.options.release = 21
+        it.options.release = 25
     }
 
     // Configure Maven publishing.
@@ -59,7 +53,14 @@ subprojects {
         publications {
             mavenJava(MavenPublication) {
                 artifactId = base.archivesName.get()
-                from components.java
+                if (project.name == 'common') {
+                    from components.java
+                } else {
+                    project.plugins.withId('com.gradleup.shadow') {
+                        from project.components.shadow
+                        artifact project.tasks.named('sourcesJar')
+                    }
+                }
             }
         }
 
